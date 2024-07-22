@@ -1,0 +1,207 @@
+body {
+    background-color: #121212; 
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    height: 100vh; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
+    flex-wrap: wrap; 
+}
+
+.profile-image {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.profile-image img {
+    max-width: 80%; 
+    max-height: 80%;
+}
+
+header h1 {
+    font-size: 4rem; 
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 2rem; 
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-icon i {
+    color: #4caf50;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon:hover i {
+    color: #e0e0e0;   
+    transform: scale(1.1);
+}
+
+section h3 {
+    color: #4caf50;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #4caf50;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #e0e0e0;
+}
+
+.education, .experience, .skills, .languages-tools, .contact {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.education-item, .experience-item, .skills-item, .languages-tools-item, .contact-item {
+    background-color: #2c2c2c;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.education-item h4, .experience-item h4, .skills-item h4, .languages-tools-item h4 {
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.education-item .institution {
+    font-weight: bold;
+}
+
+.education-item .date, .experience-item .date {
+    font-style: italic;
+}
+
+.education-item:hover, .experience-item:hover, .skills-item:hover, .languages-tools-item:hover, .contact-item:hover {
+    background-color: #333;
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 15px 0;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.icon-group, .contact-item {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.icon-group i {
+    margin: 0 15px; 
+}
+
+.contact-item i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #4caf50;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 3rem; 
+    }
+
+    header h2 {
+        font-size: 1.5rem; 
+    }
+
+    .education-item h4, .experience-item h4, .skills-item h4, .languages-tools-item h4 {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 2.5rem; 
+    }
+
+    header h2 {
+        font-size: 1.25rem; 
+    }
+
+    .profile-image img {
+        max-width: 85%; 
+    }
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        margin-top: 10px;
+        font-size: 2rem; 
+    }
+
+    header h2 {
+        font-size: 1rem;
+    }
+
+    .profile-image img {
+        max-width: 70%;
+    }
+
+    .education-item h4, .experience-item h4, .skills-item h4, .languages-tools-item h4 {
+        font-size: 0.9rem; 
+    }
+
+    .social-icon i {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        margin-top: 10px;
+        font-size: 1.5rem; 
+    }
+
+    header h2 {
+        font-size: 0.9rem; 
+    }
+
+    .profile-image img {
+        max-width: 60%;
+    }
+
+    .education-item h4, .experience-item h4, .skills-item h4, .languages-tools-item h4 {
+        font-size: 0.8rem; 
+    }
+
+    .social-icon i {
+        font-size: 1.25rem; 
+    }
+}
