@@ -1,8 +1,8 @@
-# Página Personal de Mijail Denis Zavala Llanco
+# Página Personal de Mijail Zavala Llanco
 
 ## Descripción
 
-¡Hola y bienvenidos a mi página personal! Soy Mijail Denis Zavala Llanco, Ingeniero de Sistemas, y he creado este sitio para compartir mi perfil profesional, habilidades, educación y experiencia. Utilizo tecnologías modernas como HTML, CSS y Bootstrap para ofrecer una presentación limpia y profesional.
+¡Hola y bienvenidos a mi página personal! Soy Mijail Zavala Llanco, Ingeniero de Sistemas, y he creado este sitio para compartir mi perfil profesional, habilidades, educación y experiencia. Utilizo tecnologías modernas como HTML, CSS y Bootstrap para ofrecer una presentación limpia y profesional.
 
 ## Tecnologías Utilizadas
 
